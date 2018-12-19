@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/first"
+        android:icon="@mipmap/first"
+        android:title="首页"
+        android:orderInCategory="0"
+        />
+    <item
+        android:id="@+id/news"
+        android:icon="@mipmap/news"
+        android:title="资讯"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/message"
+        android:icon="@mipmap/message"
+        android:title="消息"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/my"
+        android:icon="@mipmap/my"
+        android:title="我的"
+        android:orderInCategory="3"
+        />
+
+</menu>

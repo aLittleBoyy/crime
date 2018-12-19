@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--showAsAction 指定菜单显示在工具栏还是隐藏于溢出菜单
+     以下属性是指：充满菜单栏而且附带文字
+     -->
+    <item
+        android:id="@+id/new_crime"
+        android:icon="@drawable/ic_menu_add"
+        android:title="@string/new_crime"
+        app:showAsAction="ifRoom|withText"
+        >
+    </item>
+
+</menu>
